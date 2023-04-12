@@ -1,0 +1,14 @@
+.form-post{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 25px;
+    margin: 25px auto;
+}
+.form-post-label{
+    text-align: center;
+    font-weight:bold ;
+}
+input{
+    margin-top: 20px;
+    background-color: rgb(219, 227, 221);
+}
