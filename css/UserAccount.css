@@ -1,3 +1,4 @@
+
 .form-post{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
@@ -11,4 +12,33 @@
 input{
     margin-top: 20px;
     background-color: rgb(219, 227, 221);
+}
+.wrapper{
+   
+    border: 1px solid rgb(25, 25, 24);
+    margin-top: 100px;
+}
+table{
+    border-collapse: collapse;
+    
+}
+th,td{
+    width: 700px;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+   background-color: bisque;
+}
+.nav{
+    border: 1px solid blue;
+}
+.na{
+    width: 1000px;
+}
+.list-courses-1{
+    
+    width: 1000px;
+    
 }

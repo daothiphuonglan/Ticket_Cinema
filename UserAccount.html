@@ -5,37 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+   
     <link rel="stylesheet" href="./css/UserAccount.css">
-    <script src="./js/UserAccount.js" defer></script>
+    <script src="./js/UserAccount_1.js" defer></script>
 </head>
 <body>
-    <div>
-        <h2>Danh sach nguoi dung </h2>
-        <ul id="list-courses">
-            <li></li>
-        </ul>
+    <!--create navbar-->
+    <div class="nav" >
+       
+            <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+           
+            <nav class="na navbar navbar-expand-lg  px-5 py-3 py-lg-0 back">
+              <a href="index.html" class="navbar-brand p-0">
+                <h1 class="m-0" style="color: black;"><i class="fa fa-user-tie me-2"></i>Startup</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              
+            
+              <div class="navbar-nav ms-auto py-0">
+                <a style="color: black;" href="index.html" class="nav-item nav-link">Home</a>
+                <a style="color: black;" href="about.html" class="nav-item nav-link">Scheduls</a>
+              
+                <a style="color: black;" href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            
+            <a href="index.html" class="btn btn-primary py-2 px-4 ms-3">Log out</a>
+                </div>
+      
+      
+                
+      
+              </div>
+            </nav> 
+         
+        </navbar>
     </div>
+    
+    <!--end navbar-->
+    <div class="wrapper" >
+        <h2>Danh sach nguoi dung </h2>
+            <table class="list-courses-1">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Description </th>
+                </tr>
+                
+            </table>
+            <table id="list-courses">
+             
+                
+            </table>
+       
+      
+    
       
     <!--Tao button-->
 
     <div class="form-post">
-        <div class="form-post-label">
-            <label for="">Name</label>
-             <input type="text" name="name">
-        </div>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>
+                   
+                    <input type="text" name="name">
+                </td>
+                <td>
+                   
+                   <input type="text" name="age"> 
+                </td>
+                <td>
+                   
+                  <input type="text" name="description">
+                </td>
+                <td>
+                    <button onclick="handleCreateForm()" id="create">Create</button>
+                </td>
+            </tr>
+        </table>
        
-        <div class="form-post-label">
-            <label for="">Age</label>
-            <input type="text" name="age">
-        </div>
-        <div class="form-post-label">
-            <label for="">Description</label>
-            <input type="text" name="description">
-        </div>
-        <div>
-             <button onclick="handleCreateForm()" id="create">Create</button>
+             
         </div>
     </div>
+
     
    
 
