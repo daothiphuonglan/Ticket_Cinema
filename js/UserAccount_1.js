@@ -72,7 +72,6 @@ function handleCreateForm(){
        
          var formData={
            name:name,
-           
            age:age,
            description: description
          }

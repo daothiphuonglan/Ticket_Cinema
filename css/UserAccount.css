@@ -27,12 +27,13 @@ th,td{
     border: 1px solid black;
     padding: 8px;
     text-align: left;
+    color: antiquewhite;
 }
 th {
-   background-color: bisque;
+   background-color: rgb(92, 83, 212);
 }
 .nav{
-    border: 1px solid blue;
+    border: 1px solid rgb(120, 120, 212);
 }
 .na{
     width: 1000px;

@@ -1,6 +1,5 @@
  // API
  var foods = 'http://localhost:3000/foods'
- var drinks ='http://localhost:3000/drinks'
  
  
  const listContent = document.querySelector(".menu");

@@ -1,0 +1,243 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        
+        input[type=text], input[type=password] {
+          width: 100%;
+          padding: 15px;
+          margin: 5px 0 22px 0;
+          display: inline-block;
+          border: none;
+          background: #f1f1f1;
+        }
+        
+        input[type=text]:focus, input[type=password]:focus {
+          background-color: #ddd;
+          outline: none;
+        }
+        
+    
+        button {
+          border-radius: 20px;
+          background-color: #3D37F1;
+          color: white;
+          padding: 15px 50px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+          
+          
+        }
+        
+        button:hover {
+          opacity:1;
+        }
+        
+        
+        .cancelbtn {
+          padding: 15px 20px;
+          background-color: #f44336;
+          border-radius: 20px;
+        }
+        
+        
+        .cancelbtn, .signupbtn {
+          border-radius: 20px;
+          float: left;
+          width: 50%;
+        }
+        
+       
+        .container {
+          padding: 16px;
+          
+        }
+        
+        
+        .modal {
+          display: none; 
+          position: fixed; 
+          z-index: 1; 
+          left: 0;
+          top: 0;
+          width: 100%; 
+          height: 100%; 
+          overflow: auto; 
+          background-color: #474e5d;
+          padding-top: 50px;
+        }
+        
+        
+        .modal-content {
+          background-color: #fefefe;
+          margin: 5% auto 15% auto; 
+          border: 10px solid #888;
+          width: 50%; 
+          border-radius: 50px;
+        }
+        
+        
+        hr {
+          border: 1px solid #f1f1f1;
+          margin-bottom: 25px;
+          
+        }
+         
+        
+        .close {
+          position: absolute;
+          right: 35px;
+          top: 15px;
+          font-size: 40px;
+          font-weight: bold;
+          color: #f1f1f1;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: #f44336;
+          cursor: pointer;
+        }
+        
+        
+        .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        
+        @media screen and (max-width: 300px) {
+          .cancelbtn, .signupbtn {
+             width: 100%;
+          }
+        }
+
+        .footer-col{
+  width: 25%;
+  padding: 0px;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+*{
+	
+	box-sizing: border-box;
+}
+.footer {
+  position: absolute;
+width: 1690px;
+height: 430px;
+left: -10px;
+top: 450px;
+background: #0A075F;
+}
+
+.footer-col h4{
+	font-size: 30px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+  padding-left: 35px;
+
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 150;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 20px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 400;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+  
+  
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+#line {
+  position: absolute;
+width: 1200px;
+height: 0px;
+left: 230px;
+top: 850px;
+
+border: 1px solid #4C4D8B;
+
+}
+
+#tag-end {
+  position: absolute;
+width: 186px;
+height: 22px;
+left: 750px;
+top: 850px;
+
+font-family: 'Averta Demo PE Cutted Demo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+
+color: #FEFEFE;
+}
+
