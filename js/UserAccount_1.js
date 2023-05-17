@@ -46,14 +46,19 @@ function deleteUserAccount(id){
 
 function renderUserAccount(users){
     var html = users.map(function(user){
-        return `<li  class="user-item-${user.id}">
-             <h4>${user.name}</h4>
+        return `
+       
+         
+        <tr class="user-item-${user.id}">
+             <td>${user.name}</td>
             
-             <p>${user.age}</p>
-             <p>${user.description}</p>
-             <button onClick="deleteUserAccount(${user.id})">Delete</button>
-<
-            </li>`
+             <td>${user.age}</td>
+             <td>${user.description}</td>
+             <td><button onClick="deleteUserAccount(${user.id})">Delete</button></td>
+             
+
+            </tr>`
+        
     })
     listUserBlock.innerHTML=html.join('')
 }
@@ -67,7 +72,6 @@ function handleCreateForm(){
        
          var formData={
            name:name,
-           
            age:age,
            description: description
          }
@@ -76,4 +80,3 @@ function handleCreateForm(){
        });
     }
 }
-//
